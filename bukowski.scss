@@ -1,0 +1,103 @@
+html{
+    background-image: url(http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg);
+    font-family: Optima, Arial Narrow;
+    color: black;
+    font-size: 1.1em;
+ }
+ body{
+   margin:0;
+    font-family: Optima, Arial Narrow;
+    color: black;
+    font-size: 14pt;
+ }
+ #main{
+   display: grid;
+   grid-template-columns: 1fr 80% 1fr;
+   grid-template-rows: repeat(3, auto);
+   width:100%;
+ 
+ }
+ #img-div{
+   grid-column: 1/-1;
+   grid-row: 1/2;
+   margin:0;
+   z-index:5;
+ }
+ img{
+   max-width: 100%;
+   display: block;
+   height: auto;
+   filter: grayscale(30%);
+ }
+ figcaption{
+   box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+   background: lightgrey;
+   color:black
+ }
+ #content{
+   grid-column: 2/3;
+   grid-row: 2/3;
+   box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+   background-color: snow;
+   
+ }
+ footer{
+   grid-column: 1/-1;
+   grid-row: 3/4;
+ }
+ header{
+   margin: 20% 0 0 2%;
+   position: absolute;
+   z-index: 10;
+  color:snow;
+   opacity: 0.5;
+ }
+ blockquote{
+   right: 0;
+   width: 400px;
+   height: 120px;
+   position: absolute;
+   z-index:10;
+   color:  	#686868; 
+   font-weight: bold;
+  border: solid white 1px;
+   border-radius: 3pt;
+   padding:10px;
+   text-align: justify;
+   color:snow;
+   opacity: 0.8;
+ }
+ h1{
+    font-family: 'Special Elite', Courier, Times;
+    font-size: 3em;
+    line-height: 0;
+ }
+ h2{
+    font-size: 15pt;
+    text-indent:20px;
+    line-height: 0;
+ }
+ #tribute-info{
+     margin:25px;
+     text-align: justify;
+     text-justify: inter-word;
+     line-height:1.5;
+ }
+ footer{
+   background-color: black;
+     color: white;
+     text-align: center;
+     border-radius: 5px 5px 0px 0px;
+ }
+ a:link, a:visited {
+     color: darkBlue, purple;
+     text-decoration: none;
+ }
+ 
+ a:hover, a:active {
+     color: red;
+ }
+   .email:link, email:visited{
+     color: orange;
+     
+   }
